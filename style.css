@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main-logo{
+    width: 10rem;
+    height: 3rem;
+    margin: 20px 0;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    display: flex;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 10px;
+    height: 100vh;
+    width: 15%;
+}
+
+
+.section1, .section2, .section3, .section4{
+    display: inline;
+}
+
+.section2,.section3, .section4{
+    margin-top: 20px;
+}
+
+.section1 img, .section4 img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.section2 img{
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.home, .search, .library, .create-playlist, .liked-songs, .your-episodes, .section4, .section3 p{
+    /* margin: 10px; */
+    padding: 8px 0;
+    display: flex;
+}
+
+.home img, .search img, .library img, .create-playlist img, .liked-songs img, .your-episodes img, .section4 img{
+    padding-right: 10px;
+}
+
+
+
+.maindiv{
+    padding-top: 15px;
+    padding-left: 30px;
+    background-size: cover;
+    background-color: #121212;
+    width: 100%;
+}
+
+#arrow{
+    width: 80px;
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+.maindiv-section1{
+    margin-bottom: 40px;
+}
+
+.maindiv-section2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.subsection1, .subsection2, .subsection3, .subsection4, .subsection5{
+    background-color: #303030;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;    
+}
+
+.subsection1 img, .subsection2 img, .subsection3 img, .subsection4 img, .subsection5 img{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.liked-songs1-subsection, .liked-songs2-subsection, .neffex-playlist-subsection, .kda-subsection, .dance-electronic-mix-subsection{
+    padding: 5px;
+}
+
+
+.maindiv-section3{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 22px;
+    align-items: flex-end;
+}
+
+.maindiv-section4{
+    margin-top: 40px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
